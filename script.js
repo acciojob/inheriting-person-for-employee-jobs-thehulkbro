@@ -20,7 +20,10 @@ Employee.prototype.constructor = Employee; // Reset the constructor property
 Employee.prototype.jobGreet = function () {
     console.log(`Hello, my name is ${this.name}, I am ${this.age} years old, and my job title is ${this.jobTitle}.`);
 }
-
+const person =("Alice" , 25);
+Person.greet();
+const Employee("Bob",30);
+Employee.jobGreet();
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
